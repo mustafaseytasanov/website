@@ -1,0 +1,270 @@
+html { overflow-x: hidden; }
+body { overflow-x: hidden; }
+
+.button_up {
+    border-radius: 2px;
+    width: 80px;
+    height: 80px;
+    background-color: #59BD5A;
+    border: 0px;
+}
+
+.fixed_button {
+    position: fixed;
+    z-index: 10000;
+    bottom: 24px;
+    right: 16px;
+}
+
+
+.row_center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+}
+
+#form1 {
+  width: 962px;
+  height: 48px;
+  margin: 0 auto;
+  border-bottom: 1px solid #757575;
+}
+
+#input1 {
+  margin-top: 23px;
+  border: none;
+  width: 100%;
+  height: 24px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text_msk_rest {
+    margin-top: 56px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 956px;
+}
+
+._row {
+    justify-content: center;
+}
+
+.card2 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.h6_card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.span_card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.p_card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
+
+.card {
+    width: 308px; 
+    height: 366px;
+    border: none;
+}
+
+
+.footer {
+    justify-content: center;
+}
+
+.select_lang {
+    width: 227px;
+    height: 40px;
+    border-radius: 2px;
+    padding-left: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #3b3b3b url('photos/world.svg') no-repeat 16px;
+}
+
+#foot_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+#foot_text2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF
+}
+
+
+.photo {
+    margin-top: 72px;
+    background: url(photos2/photo.png) no-repeat;
+    background-size: 100%;
+}
+
+
+.name {
+   width: 389px;
+   height: 204px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+   border-radius: 2px;
+}
+
+#pushkin {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1D1D1D;
+    padding-top: 38px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 54px;
+}
+
+#span_pushkin {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+    
+}
+
+.rect3 {
+    width: 100px;
+    height: 32px;
+    background: #262626;
+    border-radius: 16px;
+    margin-left: 41px;
+    padding-top: 2px;
+    padding-left: 18px;
+}
+
+.filter {
+    height: 80px;
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.row_filter {
+    width: 956px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#span_filter {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+}
+
+#name_snacks {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+
+.row_snacks {
+    width: 956px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rectangle11 {
+    width: 300px;
+    height: 160px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+#h2_snack {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+#h6_snack {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+#p_snack {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
+
+option {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-left: 48px;
+}
+
+#name_in_rect {
+    width: 956px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UberEats</title>
+    <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <div class="fixed_button">
+        <button class="button button_up">
+            <a href = "#"><img src="photos/Shape.png"></a>
+        </button>
+    </div>
+
+    <div class="header" style="position: fixed; top: 0; z-index: 1000; width: 100%;">
+        <div class="rect5" style="background: #FFFFFF;
+        box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);">
+            <div class="row row_center">
+
+                <img src="photos/logo.svg"
+                style = "padding-top: 30px; padding-right: 702px; padding-bottom: 30px;">
+            
+                <button style = "margin-top: 16px; margin-bottom: 16px;
+                border: 1px solid #E0E0E0; border-radius: 2px; background-color: #FFFFFF;">
+                    <div style="font-family: Roboto; font-style: normal; font-weight: 500; font-size: 13px;
+                    line-height: 24px; text-align: center; color: #1D1D1D; padding: 7px 10px 7px 10px;">
+                        <b>Войти</b>
+                    </div>
+                </button>
+                <img style="padding-left: 16px;"
+                    src="photos/basket.svg"
+                >
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "search" style="margin-top: 104px">
+        <form id="form1" action="#">
+            <input id="input1" type="text" placeholder="Поиск по ресторанам и кухням">
+        </form>
+        
+    </div>
+
+    <div class="text_msk_rest">
+        <span style="font-family: Roboto; font-style: normal; font-weight: normal;
+                    font-size: 22px; line-height: 34px; color: #1D1D1D;">
+            Рестораны в Москве
+        </span>
+    </div>
+
+    <div class="row _row">
+        <a href="file2.html"><div class = "card">
+            <img src="photos/mcd.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>Макдоналдс — Газетный</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽₽ • Бургеры</span>
+            <p class="p_card"  style="margin-top: 4px; margin-bottom: 20px;">25 - 35 мин</p>
+        </div></a>
+        <a href="file2.html"><div class = "card card2">
+            <img src="photos/DimSum.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>DimSum & Co — ЦДМ</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽ • Японская • Китайская • Азиатская</span>
+            <p class="p_card" style="margin-top: 4px; margin-bottom: 20px;">40 - 50 мин</p>
+        </div></a>
+        <a href="file2.html"><div class = "card">
+            <img src="photos/dvig.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>ДвижОК — Манежная</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽ • Американская • Европейская</span>
+            <p class="p_card" style="margin-top: 4px; margin-bottom: 20px;">35 - 45 мин</p>
+        </div></a>
+    </div>
+
+    <div class="row _row" style="margin-top: 16px;">
+        <a href="file2.html"><div class = "card">
+            <img src="photos/NHA.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>НЯ — NHA</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽₽ • Вьетнамская</span>
+            <p class="p_card"  style="margin-top: 4px; margin-bottom: 20px;">30 - 40 мин</p>
+        </div></a>
+        <a href="file2.html"><div class = "card card2">
+            <img src="photos/Point.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>Точка Дзы — Цветной</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽₽ • Вьетнамская</span>
+            <p class="p_card" style="margin-top: 4px; margin-bottom: 20px;">40 - 50 мин</p>
+        </div></a>
+        <a href="file2.html"><div class = "card">
+            <img src="photos/Cinnabon.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>Cinnabon</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽ • Выпечка • Десерты • Капкейки</span>
+            <p class="p_card" style="margin-top: 4px; margin-bottom: 20px;">25 - 35 мин</p>
+        </div></a>
+    </div>
+
+    <div class="row _row" style="margin-top: 16px; margin-bottom: 80px;">
+        <a href="file2.html"><div class = "card">
+            <img src="photos/pizzelove.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>PIZZELOVE</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽₽ • Пицца</span>
+            <p class="p_card"  style="margin-top: 4px; margin-bottom: 20px;">15 - 25 мин</p>
+        </div></a>
+        <a href="file2.html"><div class = "card card2">
+            <img src="photos/Tverskaya.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>Zю кафе — Тверская</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽₽ • Японская</span>
+            <p class="p_card" style="margin-top: 4px; margin-bottom: 20px;">25 - 35 мин</p>
+        </div></a>
+        <a href="file2.html"><div class = "card">
+            <img src="photos/BQ.png">
+            <h6 class="h6_card" style="margin-top: 16px;"><b>Bar BQ Cafe — Манежная</b></h6>
+            <span class="span_card" style="margin-top: 4px;">₽₽₽ • Европейская</span>
+            <p class="p_card" style="margin-top: 4px; margin-bottom: 20px;">30 - 40 мин</p>
+        </div></a>
+    </div>
+
+
+
+    <footer style="background-color: #262626; height: 552px;">
+
+        <div class="column" style="width: 956px; margin-left: auto; margin-right: auto;">
+            <img  src = "photos/white-logo.svg" style = "margin: 56px 852px 40px 0px;">
+            <img  src="photos/Rectangle 7.png" style = "margin-bottom: 32px;">
+        </div>
+
+        <div class="row"  style="width: 956px; margin-left: auto; margin-right: auto;">
+            <div class="column">
+
+                <select class="select_lang">
+                    <option value="russian">
+                        Русский
+                    </option>
+                    <option value="english">
+                        English
+                    </option>
+                </select>       
+
+                <div style="padding-top: 33px;">
+                    <span style="font-family: Roboto; font-style: normal; font-weight: normal;
+                                font-size: 16px; line-height: 19px; color: #49A144;">
+                        #
+                    </span>
+                    <span style="font-family: Roboto; font-style: normal; font-weight: normal; 
+                                font-size: 16px; line-height: 19px; color: #FFFFFF;">
+                        UberEats
+                    </span>
+                </div>
+                <div style="padding-top: 17px;">
+                    <img src="photos/facebook.svg">
+                    <img src = "photos/twitter.svg" style="padding-left: 5px;">
+                    <img src="photos/instagram.png"  style="padding-left: 5px;">
+                </div>
+            </div>
+            <div class="column" style="padding-left: 97px;">
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">Об UberEats</a></p>
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">Станьте партнёром по доставке</a></p>
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">Станьте парнёром-рестораном</a></p>
+            </div>
+            <div class="column" style="padding-left: 128px;">
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">Все города</a></p>
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">Цены</a></p>
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">Помощь</a></p>
+                <p id = "foot_text" style="padding-top: 7px;"><a href="#">FAQs</a></p>
+            </div>     
+        </div>
+
+        <div style="width: 956px; margin-left: auto; margin-right: auto;">
+            <img src = "photos/Rectangle 7.png" style="padding-top: 34px; padding-bottom: 41px;">
+        </div>
+
+
+        <div class="row" style="width: 956px; margin-left: auto; margin-right: auto;">
+            <img src="photos/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" style="padding-left: 340px;">
+            <img src="photos/en_badge_web_generic-cf6dad406f.png" style="padding-left: 40px;">
+        </div>
+
+        <div style="width: 956px; margin-left: auto; margin-right: auto;">
+            <img src = "photos/Rectangle 7.png" style="padding-top: 39px;">
+        </div>
+
+        <div class="row" style="padding-top: 40px; width: 956px; margin-left: auto; margin-right: auto;">
+            <span id = "foot_text2"><a href="#">© 2017 Uber Technologies Inc.</a></span>
+            <span id = "foot_text2" style="padding-left: 174px;"><a href="#">Обработка персональных данных</a></span>
+            <span id = "foot_text2" style="padding-left: 148px;"><a href="#">Пользовательское соглашение</a></span>
+        </div>
+
+    </footer>
+
+</body>
+</html>
