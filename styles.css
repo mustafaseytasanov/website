@@ -129,8 +129,14 @@ body { overflow-x: hidden; }
     color: #FFFFFF;
 }
 
+
+a {
+    color: #FFFFFF;
+}
+
+
 a:visited {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 
